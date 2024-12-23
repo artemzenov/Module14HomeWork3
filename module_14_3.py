@@ -20,7 +20,7 @@ class UserState(StatesGroup):
     activity = State()
 
 
-api = '7454657102:AAGlKpirUafHt2zFkROwTqxp0zdvx0hzN5A'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
